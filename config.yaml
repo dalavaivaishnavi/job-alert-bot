@@ -1,0 +1,10 @@
+interval_minutes: 60
+
+filters:
+  include_keywords: ["python", "backend", "django", "fastapi", "software engineer", "developer"]
+  exclude_keywords: ["senior", "sr", "staff", "principal", "lead", "director", "manager", "head", "frontend", "react", "data scientist"]
+  locations: []
+
+sources:
+  - remoteok
+  - weworkremotely
