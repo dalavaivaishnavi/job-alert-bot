@@ -96,6 +96,10 @@ docker build -t job-alert-bot .
 docker run -d --env-file .env job-alert-bot
 ```
 
+## Deployment
+
+The bot runs hourly on GitHub Actions (`.github/workflows/job-alerts.yml`). The workflow installs dependencies, restores the SQLite database of seen jobs from the Actions cache, runs a single pass, and saves the database again. Telegram credentials are stored as repository secrets.
+
 ## Tests
 
 ```bash
