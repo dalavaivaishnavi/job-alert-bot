@@ -1,5 +1,5 @@
 # Job Alert Bot
-
+![Job alerts](https://github.com/dalavaivaishnavi/job-alert-bot/actions/workflows/job-alerts.yml/badge.svg)
 A Python bot that scrapes remote job boards on a schedule, filters listings by keyword, and sends new matches straight to Telegram. Each job is alerted only once, so the feed stays clean.
 
 ![Telegram alerts](docs/telegram-alerts.png)
